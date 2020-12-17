@@ -2,6 +2,7 @@ package com.hcsp.wxshop;
 
 import com.hcsp.wxshop.generate.User;
 import com.hcsp.wxshop.generate.UserExample;
+import com.hcsp.wxshop.generate.UserMapper;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
