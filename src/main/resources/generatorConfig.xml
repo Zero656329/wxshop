@@ -30,6 +30,17 @@
             <columnOverride column="CREATED_AT" property="createdAt" />
             <columnOverride column="UPDATE_AT" property="updateddAt" />
         </table>
-
+        <table schema="pms" tableName="SHOP" domainObjectName="Shop" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MySql" identity="true" />
+        </table>
+        <table schema="pms" tableName="GOODS" domainObjectName="Goods" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MySql" identity="true" />
+        </table>
+        <table schema="pms" tableName="SHOPPING_CART" domainObjectName="ShoppingCart" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MySql" identity="true" />
+        </table>
     </context>
 </generatorConfiguration>
